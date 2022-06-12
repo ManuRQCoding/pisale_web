@@ -127,7 +127,7 @@ class UsersUtils {
       child: DataTable(
         columnSpacing: 25,
         headingRowColor: MaterialStateProperty.all(palette.primary),
-        headingTextStyle: TextStyle(fontWeight: FontWeight.bold),
+        headingTextStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),
         dataRowColor: MaterialStateProperty.all(Colors.white),
         decoration: BoxDecoration(border: Border.all(color: palette.primary)),
         columns: getColumns(columns),
