@@ -1,6 +1,13 @@
 # Pisale_web
 TFG de Manuel José Rodríguez Quesada.
 
+## Login
+
+<img width="550" alt="Captura de Pantalla 2022-06-12 a las 20 55 35" src="https://user-images.githubusercontent.com/80096502/173248902-fa9b3352-d8e3-4ead-91c0-ba01f3a203a0.png">
+
+Deberemos iniciar sesión con una cuenta de administrador.
+
+
 ## Drawler Menú
 
 <img width="550" alt="Captura de Pantalla 2022-06-12 a las 20 40 16" src="https://user-images.githubusercontent.com/80096502/173248300-129c9839-aa05-4577-86ca-60022c324e32.png">
