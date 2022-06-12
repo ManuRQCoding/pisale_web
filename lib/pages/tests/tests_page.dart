@@ -112,6 +112,7 @@ class _CreateQuestionWidgetState extends State<CreateQuestionWidget> {
       _answers = item.answers.map((e) => e.content).toList();
       groupValue =
           item.answers.firstWhere((element) => element.correct).content;
+      print(groupValue);
       editQuestionProv.editingItem = null;
     }
     return Column(
@@ -195,7 +196,9 @@ class _CreateQuestionWidgetState extends State<CreateQuestionWidget> {
                 onSubmitted: (data) {
                   print(data);
                   setState(() {
-                    groupValue ??= data;
+                    if (_answers.isEmpty) {
+                      groupValue = data;
+                    }
                     _answers.add(data);
                   });
                 },
